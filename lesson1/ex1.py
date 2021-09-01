@@ -5,7 +5,7 @@ from bcc import BPF
 
 BPF(text='int kprobe__sys_clone(void *ctx) { bpf_trace_printk("Hello Word!\\n"); return 0;}').trace_print()
 
-# sudo python ex1.py
+# sudo python ex2.py
 # [sudo] password for dsever:
 #    systemd-1     [005] .... 22333.459035: 0x00000001: Hello Word!
 #    systemd-udevd-864   [000] .... 22333.462088: 0x00000001: Hello Word!
