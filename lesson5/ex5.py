@@ -38,3 +38,12 @@ while True:
     print("Catch %s items" % ms)
 
 
+# Catch 00000001: 0 items
+# Catch 00000001: 1 items
+# Catch 00000001: 4 items
+# Catch 00000001: 5 items
+# Catch 00000001: 6 items
+# Catch 00000001: 7 items
+# Catch 00000001: 16 items
+
+
